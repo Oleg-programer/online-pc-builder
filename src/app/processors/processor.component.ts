@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { Hero } from '../hero';
+import { Hero } from '../processor';
 import { HEROES } from '../mock-processors';
 
 @Component({
@@ -18,8 +18,8 @@ export class HeroesComponent implements OnInit {
   ngOnInit() {
   }
 
-  onSelect(hero: Hero): void {
-    this.selectedHero = hero;
+  onSelect(processor: Hero): void {
+    this.selectedHero = processor;
   }
 }
 
