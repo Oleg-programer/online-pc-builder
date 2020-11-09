@@ -10,7 +10,7 @@ import { HEROES } from '../mock-processors';
 
 export class ProcessorsComponent implements OnInit {
 
-  processors = HEROES;
+  processors = PROCESSORS;
   selectedProcessor: Processor;
 
   constructor() { }
