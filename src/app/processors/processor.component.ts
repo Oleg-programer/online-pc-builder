@@ -1,16 +1,16 @@
 import { Component, OnInit } from '@angular/core';
 import { Hero } from '../hero';
-import { HEROES } from '../mock-heroes';
+import { HEROES } from '../mock-processors';
 
 @Component({
-  selector: 'app-heroes',
-  templateUrl: './heroes.component.html',
-  styleUrls: ['./heroes.component.css']
+  selector: 'app-processors',
+  templateUrl: './processors.component.html',
+  styleUrls: ['./processors.component.css']
 })
 
 export class HeroesComponent implements OnInit {
 
-  heroes = HEROES;
+  processors = HEROES;
   selectedHero: Hero;
 
   constructor() { }
