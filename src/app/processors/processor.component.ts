@@ -11,7 +11,7 @@ import { HEROES } from '../mock-processors';
 export class ProcessorsComponent implements OnInit {
 
   processors = HEROES;
-  selectedHero: Hero;
+  selectedProcessor: Hero;
 
   constructor() { }
 
@@ -19,7 +19,7 @@ export class ProcessorsComponent implements OnInit {
   }
 
   onSelect(processor: Hero): void {
-    this.selectedHero = processor;
+    this.selectedProcessor = processor;
   }
 }
 
