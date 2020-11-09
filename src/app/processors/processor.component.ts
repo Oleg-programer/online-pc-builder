@@ -8,7 +8,7 @@ import { HEROES } from '../mock-processors';
   styleUrls: ['./processors.component.css']
 })
 
-export class HeroesComponent implements OnInit {
+export class ProcessorsComponent implements OnInit {
 
   processors = HEROES;
   selectedHero: Hero;
